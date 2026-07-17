@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Container from "./Container";
+import Button from "./Button";
 
 const links = [
     {
@@ -64,12 +65,9 @@ export default function Navbar() {
 
                     {/* CTA */}
 
-                    <Link
-                        href="#contact"
-                        className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
-                    >
+                    <Button href="#contact">
                         Contactar
-                    </Link>
+                    </Button>
 
                 </nav>
             </Container>
