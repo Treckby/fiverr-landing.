@@ -2,6 +2,7 @@ import Container from "./components/Container";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Companies from "./components/Companies";
+import Services from "./components/Services";
 export default function Home() {
   return (
     <main>
@@ -9,6 +10,7 @@ export default function Home() {
         <Navbar />
         <Hero />
        <Companies />
+       <Services/>
     </main>
   );
 }
