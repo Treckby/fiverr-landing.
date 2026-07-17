@@ -1,3 +1,4 @@
+import Badge from "./Badge";
 import Button from "./Button";
 import Container from "./Container";
 import {
@@ -21,7 +22,9 @@ export default function Hero() {
 
           <div>
             <span className="inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-              🚀 Diseño Web Profesional
+              <Badge>
+  🚀 Diseño Web Profesional
+</Badge>
             </span>
 
             <h1 className="mt-8 text-5xl font-black leading-tight text-slate-900 lg:text-7xl">
