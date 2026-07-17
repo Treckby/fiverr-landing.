@@ -4,16 +4,17 @@ import Hero from "./components/Hero";
 import Companies from "./components/Companies";
 import Services from "./components/Services";
 import Features from "./components/Features";
+import Portfolio from "./components/Portfolio";
 
 export default function Home() {
   return (
     <main>
-      
-        <Navbar />
-        <Hero />
-       <Companies />
-       <Services/>
-       <Features />
+      <Navbar />
+      <Hero />
+      <Companies />
+      <Services />
+      <Features />
+      <Portfolio />
     </main>
   );
 }
