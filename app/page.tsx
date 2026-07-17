@@ -7,6 +7,7 @@ import Features from "./components/Features";
 import Portfolio from "./components/Portfolio";
 import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Portfolio />
       <Process />
       <Testimonials />
+      <Pricing />
     </main>
   );
 }
